@@ -1,0 +1,93 @@
+body {
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.login_link a, p {
+    margin: 2px;
+}
+
+header, .login_link{
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+    text-align: end;
+    white-space: nowrap;
+    background: #1e831ece;
+
+}
+
+.login_link, .logo {
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: transparent;
+
+}
+
+main, .novo, table{
+    margin: 20px;
+}
+
+td, tr, th{
+    text-align: end;
+    width: 30%;
+    padding: 10px;
+}
+
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.novo {
+    float: left;
+    background-color: #1e831ece;
+    padding: 10px;
+    text-align: center;
+}
+
+.modal:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal{
+    visibility: hidden;
+    opacity: 0; ;
+}
+
+.modal_conteudo{
+    border-radius: 4px;
+    width: 300px;
+    max-width: 90%;
+    background: white;
+    padding: 1em 2em;
+    margin: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.modal div {
+    display: flex;
+}
+.modal_fechar{
+    padding: 10px;
+    margin: 10px;
+    background: #1e831ece;
+}
