@@ -1,39 +1,58 @@
-
-
-
-.quad_login{
-    background-color: white;
-    width: 30%;
-    background-color: #fff;
-    border: 1px solid #e3e3e3;
-    border-radius: 16px;
-    box-sizing: border-box;
-    height: 100%;
-    left: 0;
-    padding: 48px;
-    position: relative;
-    text-align: left;
-    top: 0;
-    width: 70%;
+.Border-login form label{
+    font-size:16px;
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    padding:5%;
+    background-color:#1a1a1a;
+}
+.quad_login {
+    background-color: #1e831ece;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 70px;
 }
 
-.aligment, .quad_login{
+.aligment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.aligment img{
+    height:98%;
+    border-radius:5px;
+}
+.quad_login header{
     display: flex;
     justify-content: center;
-    padding: 0 10%;
-}
-form {
-    margin: 10%;
-}
-form label, input{
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
 }
 
-form div{
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    flex-direction: row;
+.Border-login form, label, div, input {
+    margin:8px 0;
+}
+
+form input{
+    height:25px;
+
+}
+
+
+.botao_entrar{
+    width:100%;
+    color:white;
+}
+button{
+    background-color:black;
+    border:none;
+}
+.texto_registre, .link_registre, .botao_entrar{
+    font-size: 12px;
+
+}
+
+form div, input{
+    width: 100%;
+    border:none;
 }
