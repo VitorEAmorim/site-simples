@@ -31,13 +31,13 @@ body {
     margin:8px 0;
 }
 
-
 button{
-    background-color:black;
+    background-color:white;
     border:none;
+    height:25px
 }
 
 form div, input{
     border:none;
-    height:25px
+    height: 25px;
 }
