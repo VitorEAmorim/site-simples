@@ -1,0 +1,43 @@
+.Border-login form label{
+    font-size:16px;
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    padding:5%;
+    background-color:#1a1a1a;
+}
+.quad_login {
+    background-color: #1e831ece;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 70px;
+    margin: 30%;
+}
+
+.aligment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.quad_login header{
+    display: flex;
+    justify-content: center;
+}
+
+.Border-login form, label, div, input {
+    margin:8px 0;
+}
+
+
+button{
+    background-color:black;
+    border:none;
+}
+
+form div, input{
+    border:none;
+    height:25px
+}
