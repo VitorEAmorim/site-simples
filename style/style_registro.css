@@ -8,12 +8,11 @@ body {
 }
 .quad_login {
     background-color: #1e831ece;
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     border-radius: 6px;
     padding: 70px;
-    margin: 30%;
 }
 
 .aligment{
@@ -28,16 +27,18 @@ body {
 }
 
 .Border-login form, label, div, input {
-    margin:8px 0;
+    margin: 8px 0;
 }
 
+
 button{
-    background-color:white;
+    color: aliceblue;
+    background-color:black;
     border:none;
-    height:25px
 }
 
 form div, input{
     border:none;
-    height: 25px;
+    height:25px
 }
+

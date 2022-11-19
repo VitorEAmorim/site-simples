@@ -68,7 +68,7 @@ table{
     opacity: 0; ;
 }
 
-.modal_conteudo{
+.modal_conteudo form{
     border-radius: 4px;
     width: 300px;
     max-width: 90%;
